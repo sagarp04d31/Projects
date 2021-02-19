@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="resources/js/validateForm.js"></script>
+    <link rel="stylesheet" type="text/css" href="resources/css/contact.css">
+    <link rel="stylesheet" type="text/css" href="venders/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="venders/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>My Portfolio</title>
+
+</head>
+    <script src="resources/js/validateform.js"></script>
+
+<body id="Contact">
+    <header>
+        <nav class="sticky">
+            <div class="row">
+                <img src="resources/img/Logo2.png" alt="Logo" class="Logo">
+                <ul class="Navigation-bar">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="MyBlogs.html">My Blogs</a></li>
+                    <li><a href="Research.html">Research</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <style>
+    header {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  /*100% to the view port*/
+}
+    </style>
+
+    <section class="Contact-form">
+        <div class="row">
+            <h1>I am happy to hear from you</h1>
+        </div>
+        <div class="row">
+            <form name="MyForm" class="contact-form" method="post" onsubmit="return validateForm()" >
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="username" placeholder="Your name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="useremail" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="find-us">How did you find me?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="find-us">
+                            <option value="friends" selected>Friends</option>
+                            <option value="search">Search engine</option>
+                            <option value="ad">Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Newsletter?</label>
+                    </div>
+                    <div class="col span-2-of-3">   
+                        <input type="checkbox" name="news" checked> Yes, please
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Send me your thoughts</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="usermessage" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </section>
+       <footer>
+        <div class="row">
+            <div class="col span-3-of-5">
+                <ul class="social-media">
+                    <p>You can find me here</p>
+                    <li><a href="https://www.facebook.com/sagardip.poudel" target="_blank"><img class="icons facebook" src="venders/fonts/facebook-logo.png"></a></li>
+                    
+                    <li><a href="https://aboutme.google.com/u/0/?referer=gplus" target="_blank"><img class="icons google" src="venders/fonts/google-plus.png"></a></li>
+                    
+                    <li><a href="https://www.instagram.com/sagardippoudel/" target="_blank"><img class="icons instagram" src="venders/fonts/instagram-logo.png"></a></li>
+                    
+                    <li><a href="https://twitter.com/PoudelSagardip" target="_blank"><img class="icons twitter" src="venders/fonts/twitter-logo-silhouette.png"></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>
+                    This webpage was created as the coursework project given by Islington college in second semester of BScIT group in 2019<br>
+                    This website is copyright &copy; to Sagardip Poudel.
+            </p>
+            <p>
+                    Build in the beautiful city of Kathmandu,Nepal in 2019.
+            </p>
+        </div>
+    </footer>
+    </body>
+</html>

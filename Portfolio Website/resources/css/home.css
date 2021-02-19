@@ -1,0 +1,364 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+
+
+html {
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Raleway', 'Caveat', 'Arial', 'sans-serif';
+    font-weight: 300;
+    /*main font Gugi and other extras*/
+   
+    /*default size*/
+}
+
+/*_____________________________________________*/
+/*Reusable Code*/
+.row {
+    max-width: 1400px;
+    margin: 0px auto;
+}
+
+
+
+.long-copy {
+    text-align: justify;
+    
+}
+
+.box {
+    padding: 1%;
+}
+.timg{
+    color: black;
+    text-align: center;
+    font-size: 200%;
+    text-transform: uppercase;
+    margin: 20px;
+    
+}
+h1 {
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.78);
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+h2 {
+    font-size: 150%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+h2:after {
+    display: block;
+    height: 3px;
+    background-color: orange;
+    content: " ";
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+
+.welcome{
+    text-transform: uppercase;
+    font-size: 250%;
+}
+
+h4 {
+    font-size: 150%;
+    padding-top: 20px;
+    color: #3e8179;
+    letter-spacing: 3px;
+}
+
+
+
+
+/*-------Buttons--------*/
+
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
+    margin-right: 15px;
+}
+
+
+
+
+.btn:hover,
+.btn:active {
+    background-color: #016d9f;
+}
+
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #19b5fe;
+    border: 1px solid #19b5fe;
+    color: white;
+}
+
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #19b5fe;
+    color: #19b5fe;
+}
+
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #016d9f;
+    border: 1px solid #016d9f;
+    color: white;
+    
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #19b5fe;
+    color: #fff;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/*Reusable Code*/
+/*_____________________________________________*/
+/*_____________________________________________*/
+/*Header*/
+header {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/figure5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: center; */
+    /* padding: 0px 0px; */
+    height: 100vh;
+    /*
+
+    background-color: rgba(212, 212, 212, 0.38);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+*/
+    /*Size of background as the image size*/
+    /*  background-position: center;*/
+    /*100% to the view port*/
+}
+
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*What is the benifit of this?*/
+}
+
+
+.Logo {
+    height: 50px;
+    width: auto;
+    float: left;
+    padding: 5px 0;
+    
+/*    padding top and bottom: 5px;*/
+}
+.Navigation-bar {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.Navigation-bar li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.Navigation-bar li a:link,
+.Navigation-bar li a:visited {
+    padding: 2px 4px;
+    color: white;
+    text-decoration: none;
+    font-size: 90%;
+    border-bottom: 3px solid transparent;
+}
+
+.Navigation-bar li a:hover,
+.Navigation-bar li a:active {
+    border-bottom: 3px solid #57d446;
+    transition: border-bottom 0.2s;
+}
+
+
+/*
+.sticky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 2px 2px #efefef;
+}
+   
+*/
+/* Sticky navi */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav { margin-top: 18px; }
+
+.sticky .Navigation-bar li a:link,
+.sticky .Navigation-bar li a:visited {
+    padding: 16px 0;
+    color: #555;
+}
+
+
+
+/*Header*/
+/*_____________________________________________*/
+/*_____________________________________________*/
+/*Technology Gallary*/
+
+.section-img {
+    padding: 0px;
+    margin: 50px 0px;
+}
+
+
+
+
+.Tech-showcase {
+    margin: 0;
+    padding:0px 0px;
+    list-style: none;
+    width: 100%;
+}
+
+.Tech-showcase li {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    margin: 0px;
+}
+
+.Tech-photo {
+    width: 100%;
+    margin: 0px 0px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.Tech-photo img {
+    opacity:0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.4);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.Tech-photo img:hover {
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+
+
+/*Footer*/
+
+.icons{
+    width:25px;
+    height:25px;
+}
+
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    font-size: 80%;
+}
+
+
+.social-media {
+    list-style: none;
+    float: right;
+}
+
+
+.social-media li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+
+    
+footer p {
+    color: #bfbfbf;
+    text-align: center;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

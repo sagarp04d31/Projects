@@ -1,0 +1,218 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+
+html {
+  background-color: white;
+  font-family: 'Raleway','Caveat','Arial','sans-serif';  /*main font Gugi and other extras*/
+  font-size: 20px; /*default size*/
+}
+
+
+
+/*_____________________________________________*/
+/*Reusable Code*/
+
+
+
+.row{
+    max-width: 1400px;
+    margin: 0px auto;
+
+}
+
+.box{
+    padding:1%;
+}
+
+.research-video{
+    padding-bottom: 10px;
+}
+
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.78);
+    word-spacing: 5px;
+    letter-spacing: 3px;
+
+}
+.long-copy{
+    float: left;
+    width: 1100px;
+    text-align: justify;
+    margin: 0 auto;
+
+}
+
+.research{
+    padding-bottom: 20px;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+/*Reusable Code*/
+/*_____________________________________________*/
+
+
+/*_____________________________________________*/
+/*Header*/
+
+header{
+    background-color:white;
+    background-size: cover;/*Size of background as the image size*/
+    background-position: center;
+    height: 10vh;/*100% to the view port*/
+}
+
+
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.Logo {
+    height: 50px;
+    width: auto;
+    float: left;
+    padding: 5px 0;
+    
+/*    padding top and bottom: 5px;*/
+}
+
+.Navigation-bar{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    
+}
+
+.Navigation-bar li {
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+
+.Navigation-bar li a:link,
+.Navigation-bar li a:visited{
+    padding: 2px 4px;
+    color: black;
+    text-decoration: none;
+    font-size: 90%;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.Navigation-bar li a:hover,
+.Navigation-bar li a:active{
+    border-bottom: 3px solid #57d446;
+}
+
+
+.sticky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    
+
+}   
+     
+/*Header*/
+/*_____________________________________________*/
+
+
+/*Images*/
+
+.ref-photo{
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+.icons{
+    width:25px;
+    height:25px;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    font-size: 80%;
+}
+
+
+.social-media {
+    list-style: none;
+    float: right;
+}
+
+
+.social-media li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+.social-media li a:link,
+.social-media li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+
+.social-media li a:link,
+.social-media li a:visited {
+    font-size: 160%;
+}
+
+    
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.research{
+    padding-left: 100px;
+}
+
+
+.ref-photo{
+    padding-bottom:100px;
+}
+
+
+
+
+
+
